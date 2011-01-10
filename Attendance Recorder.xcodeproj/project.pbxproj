@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A60268BC12D82F830090EA16 /* ARRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A60268BB12D82F830090EA16 /* ARRecord.m */; };
+		A612B7EE12DADE7E00C57764 /* AdminWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A612B7ED12DADE7E00C57764 /* AdminWindow.m */; };
+		A62D065412D73547001AB410 /* ARMember.m in Sources */ = {isa = PBXBuildFile; fileRef = A62D065312D73547001AB410 /* ARMember.m */; };
+		A62D065812D75D5E001AB410 /* ARShift.m in Sources */ = {isa = PBXBuildFile; fileRef = A62D065712D75D5E001AB410 /* ARShift.m */; };
+		A67DF82D12D5DAD100C7B020 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67DF82C12D5DAD100C7B020 /* Cocoa.framework */; };
+		A67DF83212D5DAD200C7B020 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A67DF83012D5DAD200C7B020 /* InfoPlist.strings */; };
+		A67DF83412D5DAD200C7B020 /* Attendance_Recorder-main.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DF83312D5DAD200C7B020 /* Attendance_Recorder-main.m */; };
+		A67DF83712D5DAD200C7B020 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A67DF83512D5DAD200C7B020 /* MainMenu.xib */; };
+		A67DF83A12D5DAD200C7B020 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A67DF83812D5DAD200C7B020 /* Credits.rtf */; };
+		A67DF83D12D5DAD200C7B020 /* Attendance_RecorderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DF83C12D5DAD200C7B020 /* Attendance_RecorderAppDelegate.m */; };
+		A67DF84512D5DAD300C7B020 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67DF82C12D5DAD100C7B020 /* Cocoa.framework */; };
+		A67DF84912D5DAD300C7B020 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A67DF84812D5DAD300C7B020 /* InfoPlist.strings */; };
+		A67DF84B12D5DAD300C7B020 /* Attendance_RecorderTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A67DF84A12D5DAD300C7B020 /* Attendance_RecorderTests.h */; };
+		A67DF84D12D5DAD300C7B020 /* Attendance_RecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DF84C12D5DAD300C7B020 /* Attendance_RecorderTests.m */; };
+		A67DF85C12D5DC3500C7B020 /* LoginWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DF85B12D5DC3500C7B020 /* LoginWindow.m */; };
+		A6A2426B12DAB0F1006BD247 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A2426A12DAB0F1006BD247 /* AppIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A60268BA12D82F830090EA16 /* ARRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARRecord.h; sourceTree = "<group>"; };
+		A60268BB12D82F830090EA16 /* ARRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARRecord.m; sourceTree = "<group>"; };
+		A612B7EC12DADE7E00C57764 /* AdminWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminWindow.h; sourceTree = "<group>"; };
+		A612B7ED12DADE7E00C57764 /* AdminWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminWindow.m; sourceTree = "<group>"; };
+		A62D065212D73547001AB410 /* ARMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARMember.h; sourceTree = "<group>"; };
+		A62D065312D73547001AB410 /* ARMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARMember.m; sourceTree = "<group>"; };
+		A62D065612D75D5E001AB410 /* ARShift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARShift.h; sourceTree = "<group>"; };
+		A62D065712D75D5E001AB410 /* ARShift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARShift.m; sourceTree = "<group>"; };
+		A67DF82912D5DAD100C7B020 /* Attendance Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Attendance Recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67DF82C12D5DAD100C7B020 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A67DF82E12D5DAD200C7B020 /* Attendance_Recorder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Attendance_Recorder-Info.plist"; sourceTree = "<group>"; };
+		A67DF82F12D5DAD200C7B020 /* Attendance_Recorder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Attendance_Recorder-Prefix.pch"; sourceTree = "<group>"; };
+		A67DF83112D5DAD200C7B020 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A67DF83312D5DAD200C7B020 /* Attendance_Recorder-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Attendance_Recorder-main.m"; sourceTree = "<group>"; };
+		A67DF83612D5DAD200C7B020 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A67DF83912D5DAD200C7B020 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A67DF83B12D5DAD200C7B020 /* Attendance_RecorderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Attendance_RecorderAppDelegate.h; path = Classes/Attendance_RecorderAppDelegate.h; sourceTree = "<group>"; };
+		A67DF83C12D5DAD200C7B020 /* Attendance_RecorderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Attendance_RecorderAppDelegate.m; path = Classes/Attendance_RecorderAppDelegate.m; sourceTree = "<group>"; };
+		A67DF84412D5DAD300C7B020 /* Attendance_RecorderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Attendance_RecorderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67DF84612D5DAD300C7B020 /* Attendance_RecorderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Attendance_RecorderTests-Info.plist"; sourceTree = "<group>"; };
+		A67DF84712D5DAD300C7B020 /* Attendance_RecorderTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Attendance_RecorderTests-Prefix.pch"; sourceTree = "<group>"; };
+		A67DF84812D5DAD300C7B020 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = en.lproj/Attendance_RecorderTests/InfoPlist.strings; sourceTree = "<group>"; };
+		A67DF84A12D5DAD300C7B020 /* Attendance_RecorderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Attendance_RecorderTests.h; sourceTree = "<group>"; };
+		A67DF84C12D5DAD300C7B020 /* Attendance_RecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Attendance_RecorderTests.m; sourceTree = "<group>"; };
+		A67DF85A12D5DC3500C7B020 /* LoginWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginWindow.h; sourceTree = "<group>"; };
+		A67DF85B12D5DC3500C7B020 /* LoginWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginWindow.m; sourceTree = "<group>"; };
+		A6A2426A12DAB0F1006BD247 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A67DF82612D5DAD100C7B020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67DF82D12D5DAD100C7B020 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67DF84012D5DAD200C7B020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67DF84512D5DAD300C7B020 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A62D065112D733C2001AB410 /* UI Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A67DF85A12D5DC3500C7B020 /* LoginWindow.h */,
+				A67DF85B12D5DC3500C7B020 /* LoginWindow.m */,
+				A612B7EC12DADE7E00C57764 /* AdminWindow.h */,
+				A612B7ED12DADE7E00C57764 /* AdminWindow.m */,
+			);
+			name = "UI Controllers";
+			sourceTree = "<group>";
+		};
+		A62D065512D75D26001AB410 /* App Delegate Files */ = {
+			isa = PBXGroup;
+			children = (
+				A67DF83B12D5DAD200C7B020 /* Attendance_RecorderAppDelegate.h */,
+				A67DF83C12D5DAD200C7B020 /* Attendance_RecorderAppDelegate.m */,
+			);
+			name = "App Delegate Files";
+			sourceTree = "<group>";
+		};
+		A67DF81A12D5DAD000C7B020 = {
+			isa = PBXGroup;
+			children = (
+				A62D065512D75D26001AB410 /* App Delegate Files */,
+				A62D065112D733C2001AB410 /* UI Controllers */,
+				A67DF82112D5DAD100C7B020 /* Classes */,
+				A67DF82212D5DAD100C7B020 /* Other Sources */,
+				A67DF82312D5DAD100C7B020 /* Resources */,
+				A67DF82412D5DAD100C7B020 /* Frameworks */,
+				A67DF82A12D5DAD100C7B020 /* Products */,
+				A67DF83E12D5DAD200C7B020 /* Tests */,
+			);
+			sourceTree = "<group>";
+		};
+		A67DF82112D5DAD100C7B020 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A62D065212D73547001AB410 /* ARMember.h */,
+				A62D065312D73547001AB410 /* ARMember.m */,
+				A62D065612D75D5E001AB410 /* ARShift.h */,
+				A62D065712D75D5E001AB410 /* ARShift.m */,
+				A60268BA12D82F830090EA16 /* ARRecord.h */,
+				A60268BB12D82F830090EA16 /* ARRecord.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A67DF82212D5DAD100C7B020 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A67DF82F12D5DAD200C7B020 /* Attendance_Recorder-Prefix.pch */,
+				A67DF83312D5DAD200C7B020 /* Attendance_Recorder-main.m */,
+				A67DF84712D5DAD300C7B020 /* Attendance_RecorderTests-Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A67DF82312D5DAD100C7B020 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6A2426A12DAB0F1006BD247 /* AppIcon.png */,
+				A67DF82E12D5DAD200C7B020 /* Attendance_Recorder-Info.plist */,
+				A67DF83012D5DAD200C7B020 /* InfoPlist.strings */,
+				A67DF83512D5DAD200C7B020 /* MainMenu.xib */,
+				A67DF83812D5DAD200C7B020 /* Credits.rtf */,
+				A67DF84612D5DAD300C7B020 /* Attendance_RecorderTests-Info.plist */,
+				A67DF84812D5DAD300C7B020 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A67DF82412D5DAD100C7B020 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A67DF82C12D5DAD100C7B020 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A67DF82A12D5DAD100C7B020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A67DF82912D5DAD100C7B020 /* Attendance Recorder.app */,
+				A67DF84412D5DAD300C7B020 /* Attendance_RecorderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A67DF83E12D5DAD200C7B020 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A67DF84A12D5DAD300C7B020 /* Attendance_RecorderTests.h */,
+				A67DF84C12D5DAD300C7B020 /* Attendance_RecorderTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A67DF82812D5DAD100C7B020 /* Attendance Recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67DF85212D5DAD300C7B020 /* Build configuration list for PBXNativeTarget "Attendance Recorder" */;
+			buildPhases = (
+				A67DF82512D5DAD100C7B020 /* Sources */,
+				A67DF82612D5DAD100C7B020 /* Frameworks */,
+				A67DF82712D5DAD100C7B020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Attendance Recorder";
+			productName = "Attendance Recorder";
+			productReference = A67DF82912D5DAD100C7B020 /* Attendance Recorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A67DF84312D5DAD200C7B020 /* Attendance_RecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67DF85512D5DAD300C7B020 /* Build configuration list for PBXNativeTarget "Attendance_RecorderTests" */;
+			buildPhases = (
+				A67DF83F12D5DAD200C7B020 /* Sources */,
+				A67DF84012D5DAD200C7B020 /* Frameworks */,
+				A67DF84112D5DAD200C7B020 /* Resources */,
+				A67DF84212D5DAD200C7B020 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Attendance_RecorderTests;
+			productName = Attendance_RecorderTests;
+			productReference = A67DF84412D5DAD300C7B020 /* Attendance_RecorderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A67DF81C12D5DAD000C7B020 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A67DF81F12D5DAD000C7B020 /* Build configuration list for PBXProject "Attendance Recorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A67DF81A12D5DAD000C7B020;
+			productRefGroup = A67DF82A12D5DAD100C7B020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A67DF82812D5DAD100C7B020 /* Attendance Recorder */,
+				A67DF84312D5DAD200C7B020 /* Attendance_RecorderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A67DF82712D5DAD100C7B020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67DF83212D5DAD200C7B020 /* InfoPlist.strings in Resources */,
+				A67DF83712D5DAD200C7B020 /* MainMenu.xib in Resources */,
+				A67DF83A12D5DAD200C7B020 /* Credits.rtf in Resources */,
+				A6A2426B12DAB0F1006BD247 /* AppIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67DF84112D5DAD200C7B020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67DF84912D5DAD300C7B020 /* InfoPlist.strings in Resources */,
+				A67DF84B12D5DAD300C7B020 /* Attendance_RecorderTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A67DF84212D5DAD200C7B020 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A67DF82512D5DAD100C7B020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67DF83412D5DAD200C7B020 /* Attendance_Recorder-main.m in Sources */,
+				A67DF83D12D5DAD200C7B020 /* Attendance_RecorderAppDelegate.m in Sources */,
+				A67DF85C12D5DC3500C7B020 /* LoginWindow.m in Sources */,
+				A62D065412D73547001AB410 /* ARMember.m in Sources */,
+				A62D065812D75D5E001AB410 /* ARShift.m in Sources */,
+				A60268BC12D82F830090EA16 /* ARRecord.m in Sources */,
+				A612B7EE12DADE7E00C57764 /* AdminWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67DF83F12D5DAD200C7B020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67DF84D12D5DAD300C7B020 /* Attendance_RecorderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A67DF83012D5DAD200C7B020 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A67DF83112D5DAD200C7B020 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A67DF83512D5DAD200C7B020 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A67DF83612D5DAD200C7B020 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A67DF83812D5DAD200C7B020 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A67DF83912D5DAD200C7B020 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A67DF84E12D5DAD300C7B020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A67DF84F12D5DAD300C7B020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A67DF85012D5DAD300C7B020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A67DF85112D5DAD300C7B020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		A67DF85312D5DAD300C7B020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Attendance_Recorder-Prefix.pch";
+				INFOPLIST_FILE = "Attendance_Recorder-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A67DF85412D5DAD300C7B020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Attendance_Recorder-Prefix.pch";
+				INFOPLIST_FILE = "Attendance_Recorder-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A67DF85612D5DAD300C7B020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Attendance_RecorderTests-Prefix.pch";
+				INFOPLIST_FILE = "Attendance_RecorderTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A67DF85712D5DAD300C7B020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Attendance_RecorderTests-Prefix.pch";
+				INFOPLIST_FILE = "Attendance_RecorderTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		A67DF85812D5DAD300C7B020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Attendance_RecorderTests;
+			};
+			name = Debug;
+		};
+		A67DF85912D5DAD300C7B020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = Attendance_RecorderTests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A67DF81F12D5DAD000C7B020 /* Build configuration list for PBXProject "Attendance Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67DF84E12D5DAD300C7B020 /* Debug */,
+				A67DF84F12D5DAD300C7B020 /* Release */,
+				A67DF85012D5DAD300C7B020 /* Debug */,
+				A67DF85112D5DAD300C7B020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67DF85212D5DAD300C7B020 /* Build configuration list for PBXNativeTarget "Attendance Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67DF85312D5DAD300C7B020 /* Debug */,
+				A67DF85412D5DAD300C7B020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67DF85512D5DAD300C7B020 /* Build configuration list for PBXNativeTarget "Attendance_RecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67DF85612D5DAD300C7B020 /* Debug */,
+				A67DF85712D5DAD300C7B020 /* Release */,
+				A67DF85812D5DAD300C7B020 /* Debug */,
+				A67DF85912D5DAD300C7B020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A67DF81C12D5DAD000C7B020 /* Project object */;
+}
